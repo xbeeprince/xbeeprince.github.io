@@ -1,5 +1,6 @@
 ---
 title: 第一篇文章
+date: 2018-09-01 12:00:00
 tags:
   - 教程
 categories: 教育

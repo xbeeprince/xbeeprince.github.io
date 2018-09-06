@@ -152,7 +152,8 @@ links_layout: block
 #links_layout: inline
 links:
   大牛博客: http://iosxxx.com/
-  简书: http://jianshu.com/
+  其他博客: https://oliverqueen.cn/
+  我的简书: https://www.jianshu.com/u/392b61257c34
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
@@ -280,7 +281,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: night
+highlight_theme: normal
 
 
 # ---------------------------------------------------------------
@@ -335,7 +336,7 @@ font:
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family: PT Mono
+    family: Menlo
     size:
 
 
@@ -534,15 +535,15 @@ rating:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: 6OdCt42AWAOWfLdzYTEHsXdH-gzGzoHsz
+  app_key: 7Mva2umSiySAHY7vn9zNNKVk
 
 # Another tool to show number of visitors to each article.
 # visit https://console.firebase.google.com/u/0/ to get apiKey and projectId
 # visit https://firebase.google.com/docs/firestore/ to get more information about firestore
 firestore:
-  enable: false
+  enable: true
   collection: articles #required, a string collection name to access firestore database
   apiKey: #required
   projectId: #required
@@ -607,7 +608,7 @@ algolia_search:
 # Local search
 # Dependencies: https://github.com/flashlab/hexo-generator-search
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
