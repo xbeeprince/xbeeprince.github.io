@@ -34,7 +34,7 @@ favicon:
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 
-avatar: /images/default_avatar.png
+avatar: /images/default_avatar.jpg
 
 # Set default keywords (Use a comma to separate)
 keywords: "prince, blog"
