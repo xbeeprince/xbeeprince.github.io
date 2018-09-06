@@ -25,7 +25,7 @@ NSURL *url = [NSURL URLWithString:@"sms://13688888888"];
 
 > 然后要遵循代理MFMessageComposeViewControllerDelegate，并实现代理方法
 
-```
+``` objc
 #pragma mark - 代理方法
 -(void)messageComposeViewController:(MFMessageComposeViewController *)controller didFinishWithResult:(MessageComposeResult)result
 {
@@ -53,7 +53,7 @@ NSURL *url = [NSURL URLWithString:@"sms://13688888888"];
 
 > 发送短信方法实现:
 
-```
+``` objc
 #pragma mark - 发送短信方法
 -(void)showMessageView:(NSArray *)phones title:(NSString *)title body:(NSString *)body
 {
@@ -82,7 +82,7 @@ NSURL *url = [NSURL URLWithString:@"sms://13688888888"];
 
 > 最后，调用发送短信的方法:
 
-```
+``` objc
 [self showMessageView:[NSArray arrayWithObjects:@"13688888888",@"13588888888", nil] title:@"test" body:@"这是测试用短信，勿回复！"];
 
 ```
