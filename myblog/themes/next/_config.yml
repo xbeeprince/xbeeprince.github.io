@@ -806,14 +806,9 @@ vendors:
   # needMoreShare2
   # https://github.com/revir/need-more-share2
   needMoreShare2:
-
-  live2d:
-    model: wanko
-    width: 100
-    height: 200
-    bottom: -30
-
-
+  # 文章末尾添加“本文结束”标记
+  passage_end_tag:
+    enabled: true
 # Assets
 css: css
 js: js

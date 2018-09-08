@@ -1,13 +1,14 @@
 const ap = new APlayer({
     container: document.getElementById('aplayer'),
-    fixed: true,
-    autoplay: false,
+    autoplay: true,
+    preload: 'auto',
     audio: [
       {
-        name: "PDD洪荒之力",
-        artist: '徐梦圆',
-        url: '../music/花粥,马雨阳 - 盗将行.flac',
-        cover: 'http://oeff2vktt.bkt.clouddn.com/image/84.jpg',
+        name: '盗将行',
+        artist: '花粥,马雨阳',
+        url: 'http://www.ytmp3.cn/down/49827.mp3',
+        cover: 'http://oeff2vktt.bkt.clouddn.com/image/37.jpg',
+        theme: '#ebd0c2',
       },
     ]
 });
