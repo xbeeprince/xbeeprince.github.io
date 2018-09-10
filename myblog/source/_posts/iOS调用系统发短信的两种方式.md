@@ -79,7 +79,6 @@ NSURL *url = [NSURL URLWithString:@"sms://13688888888"];
 }
 ```
 
-
 > 最后，调用发送短信的方法:
 
 ``` objc
