@@ -1830,7 +1830,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #816655;
+  background: #ff1d1c;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3060,12 +3060,11 @@ header.post-header {
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
 code {
-  color: #c7254e;
-  background: #f9f2f4;
-  border: 1px solid #d6d6d6;
-  padding: 1px 4px;
-  word-break: break-all;
-  border-radius: 4px;
+  color: #ff7600;
+  background: #fbf7f8;
+  margin: 2px;
+  padding: 2px;
+  border: 1px solid #d3d3d3;
 }
 .highlight,
 pre {
