@@ -1950,7 +1950,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #7a6e2d;
+  background: #b34ff6;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2876,13 +2876,13 @@ pre .javascript .function {
   padding-right: 260px;
 }
 header {
-  width: 1350px !important;
+  width: 1450px !important;
 }
 header.post-header {
   width: auto !important;
 }
 .container .main-inner {
-  width: 1350px;
+  width: 1450px;
 }
 .content-wrap {
   width: calc(100% - 260px);
